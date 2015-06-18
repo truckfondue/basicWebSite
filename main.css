@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+header, main {
+	height: 200px;
+	background-color: limegreen;
+	text-align: center;
+	line-height: 200px;
+	margin-bottom: 5px
+}
+
+header p, main p {
+	margin: 0 auto;
+	color: white;
+	vertical-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+
+}
+
+main p {
+	vertical-align: top;
+}
+
+main {
+	background-color: black;
+
+}
+
+body {
+	background-color: black;
+}
+
+
+
+/*.food {
+	max-width: 100%;
+	margin-bottom: 1px;
+}
+
+.food div {
+	max-width: 100%;
+	display: inline;
+	
+}
+
+.food div img {
+	max-width: 33%;
+	height: auto;
+}*/
+
+/*footer {
+	height: 300px;
+	background: black;
+}*/
+
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+  width: 100%;
+  max-width: 150px;
+}
